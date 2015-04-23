@@ -8,7 +8,7 @@ Because all this library depends NSURLRequest.
 
 One More Thing! AFNetworking, SDWebImage is also available.
 
-PonyCui/NSEtcHosts uses `NSURLRequest`, swizzling init and allHTTPHeaderFields method.
+PonyCui/NSEtcHosts uses `NSURLRequest`, swizzling init method.
 
 > This is a proof-of-concept, and is not intended for use in production. It's not safe use in prodution. For safely, all code use DEBUG marcos to prevent NSEtcHosts Class build in prodution.
 
@@ -32,8 +32,8 @@ NSURL *URL = [NSURL URLWithString:@"http://www.github.com"];
 
 ```objective-c
 NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.github.com"]];
-[NSURLConnection sendAsynchronousRequest:request 
-                                   queue:[NSOperationQueue mainQueue] 
+[NSURLConnection sendAsynchronousRequest:request
+                                   queue:[NSOperationQueue mainQueue]
                                    completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
 }];
 ```
