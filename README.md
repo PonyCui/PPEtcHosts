@@ -1,6 +1,6 @@
 # NSEtcHosts
 
-This NSEtcHosts use anthoer implementation way, thanks for [Mattt Thompson](http://github.com/mattt).
+This NSEtcHosts use another implementation way, thanks for [Mattt Thompson](http://github.com/mattt).
 
 This NSEtcHosts gives you the whole application host name controls. It effects UIWebView/NSURLConnection/NSURLSession etc.
 
