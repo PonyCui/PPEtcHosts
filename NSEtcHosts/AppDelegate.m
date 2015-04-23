@@ -22,6 +22,7 @@
 #endif
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.github.com"]];
     [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+        
     }];
     // Override point for customization after application launch.
     return YES;
