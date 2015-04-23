@@ -14,6 +14,7 @@
 		637B9F8E1AE891A000D7D801 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637B9F8D1AE891A000D7D801 /* Images.xcassets */; };
 		637B9F911AE891A000D7D801 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637B9F8F1AE891A000D7D801 /* LaunchScreen.xib */; };
 		637B9F9D1AE891A000D7D801 /* NSEtcHostsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637B9F9C1AE891A000D7D801 /* NSEtcHostsTests.m */; };
+		637B9FA91AE893E200D7D801 /* NSEtcHosts.m in Sources */ = {isa = PBXBuildFile; fileRef = 637B9FA81AE893E200D7D801 /* NSEtcHosts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		637B9F961AE891A000D7D801 /* NSEtcHostsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSEtcHostsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		637B9F9B1AE891A000D7D801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		637B9F9C1AE891A000D7D801 /* NSEtcHostsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSEtcHostsTests.m; sourceTree = "<group>"; };
+		637B9FA71AE893E200D7D801 /* NSEtcHosts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSEtcHosts.h; sourceTree = "<group>"; };
+		637B9FA81AE893E200D7D801 /* NSEtcHosts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSEtcHosts.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		637B9F741AE891A000D7D801 = {
 			isa = PBXGroup;
 			children = (
+				637B9FA61AE891C200D7D801 /* Src */,
 				637B9F7F1AE891A000D7D801 /* NSEtcHosts */,
 				637B9F991AE891A000D7D801 /* NSEtcHostsTests */,
 				637B9F7E1AE891A000D7D801 /* Products */,
@@ -117,6 +121,15 @@
 				637B9F9B1AE891A000D7D801 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		637B9FA61AE891C200D7D801 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				637B9FA71AE893E200D7D801 /* NSEtcHosts.h */,
+				637B9FA81AE893E200D7D801 /* NSEtcHosts.m */,
+			);
+			path = Src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				637B9F891AE891A000D7D801 /* ViewController.m in Sources */,
+				637B9FA91AE893E200D7D801 /* NSEtcHosts.m in Sources */,
 				637B9F861AE891A000D7D801 /* AppDelegate.m in Sources */,
 				637B9F831AE891A000D7D801 /* main.m in Sources */,
 			);
