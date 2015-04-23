@@ -1,7 +1,11 @@
 # NSEtcHosts
 
 This NSEtcHosts use anthoer implementation way, thanks for [Mattt Thompson](http://github.com/mattt).
-This NSEtcHosts gives you the whole application host name controls. It effects UIWebView/NSURLConnection/NSURLSession etc. Because all this library depends NSURLRequest.
+
+This NSEtcHosts gives you the whole application host name controls. It effects UIWebView/NSURLConnection/NSURLSession etc.
+
+Because all this library depends NSURLRequest.
+
 One More Thing! AFNetworking, SDWebImage is also available.
 
 PonyCui/NSEtcHosts uses `NSURLRequest`, swizzling init and allHTTPHeaderFields method.
