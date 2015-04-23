@@ -17,12 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [NSEtcHosts addHost:@"www.baidu.com" ipAddress:@"127.0.0.1"];
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com"]];
+    [NSEtcHosts addHost:@"www.github.com" ipAddress:@"210.38.111.228"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.github.com"]];
     [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
-        
     }];
-    
     // Override point for customization after application launch.
     return YES;
 }
