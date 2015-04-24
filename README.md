@@ -1,5 +1,7 @@
 # PPEtcHosts
 
+* To avoid any confusion, this project has been rename as 'PPEtcHosts', thanks Mattt.
+
 This PPEtcHosts use another implementation way, thanks for [Mattt Thompson](http://github.com/mattt).
 
 This PPEtcHosts gives you the whole application host name controls. It effects UIWebView/NSURLConnection/NSURLSession etc.
