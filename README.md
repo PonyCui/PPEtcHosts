@@ -1,14 +1,14 @@
-# NSEtcHosts
+# PPEtcHosts
 
-This NSEtcHosts use another implementation way, thanks for [Mattt Thompson](http://github.com/mattt).
+This PPEtcHosts use another implementation way, thanks for [Mattt Thompson](http://github.com/mattt).
 
-This NSEtcHosts gives you the whole application host name controls. It effects UIWebView/NSURLConnection/NSURLSession etc.
+This PPEtcHosts gives you the whole application host name controls. It effects UIWebView/NSURLConnection/NSURLSession etc.
 
 Because all this library depends NSURLRequest.
 
 One More Thing! AFNetworking, SDWebImage is also available.
 
-PonyCui/NSEtcHosts uses `NSURLRequest`, swizzling init method.
+PonyCui/PPEtcHosts uses `NSURLRequest`, swizzling init method.
 
 > This is a proof-of-concept, and is not intended for use in production. It's not safe use in prodution. For safely, all code use DEBUG marcos to prevent NSEtcHosts Class build in prodution.
 
@@ -44,4 +44,4 @@ NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http
 
 ## License
 
-NSEtcHosts is available under the MIT license. See the LICENSE file for more info.
+PPEtcHosts is available under the MIT license. See the LICENSE file for more info.
