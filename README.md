@@ -14,7 +14,7 @@ PonyCui/NSEtcHosts uses `NSURLRequest`, swizzling init method.
 
 ## Install
 
-add "src" files to your project, or 'Pod NSEtcHosts'.
+add "src" files to your project.
 
 ## Usage
 
